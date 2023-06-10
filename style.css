@@ -23,7 +23,7 @@ body {
   margin: auto;
   width: 100%;
   max-width: 1280px;
-  text-align: center
+  text-align: left;
 }
 
 #typed-text {
@@ -34,11 +34,11 @@ body {
 
 #cursor {
   display: inline-block;
-  width: 10px;
-  height: 2rem;
-  background-color: white;
+  width: 0.625rem;
+  height: 2.1rem;
+  background-color: #FAFAFA;
   margin-left: 4px;
-  margin-top: 2px;
+  margin-bottom: -5px;
   animation: blink-caret 1s step-end infinite;
 }
 
